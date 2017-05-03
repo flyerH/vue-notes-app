@@ -9,7 +9,7 @@
           <button type="button" class="btn btn-default"
                   @click="show = 'all'"
                   :class="{active: show === 'all'}">
-            All Notes
+           所有笔记
           </button>
         </div>
         <!-- Favorites Button -->
@@ -17,7 +17,7 @@
           <button type="button" class="btn btn-default"
                   @click="show = 'favorites'"
                   :class="{active: show === 'favorites'}">
-            Favorites
+           收藏
           </button>
         </div>
       </div>
